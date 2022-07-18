@@ -1,0 +1,31 @@
+* {
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-areas: "header header header header header" "menu nav nav right right" "menu footer footer footer footer";
+    grid-gap: 10px ;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+.container div {
+    background-color: greenyellow;
+    padding: 10px;
+}
+.item1 {
+    grid-area: header;
+}
+.item2 {
+    grid-area: menu;
+}
+.item3 {
+    grid-area: nav;
+}
+.item4 {
+    grid-area: right;
+}
+.item5 {
+    grid-area: footer;
+}
